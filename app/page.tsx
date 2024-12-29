@@ -10,7 +10,7 @@ import ContactSection from '@/app/components/ContactSection';
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Header />
       <main>
         <HomeSection />
@@ -21,6 +21,6 @@ export default function Home() {
         <ContactSection />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }

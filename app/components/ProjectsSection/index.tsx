@@ -1,3 +1,6 @@
+import projectCard from "@/app/public/images/banner.jpg";
+import Image from "next/image";
+
 export default function ProjectsSection() {
     return (
         <section id="projects" className="py-20 bg-gray-100">
@@ -6,8 +9,8 @@ export default function ProjectsSection() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {/* Project Card */}
                     <div className="bg-white shadow-md rounded-lg overflow-hidden transition hover:shadow-lg">
-                        <img
-                            src="/images/project1.jpg"
+                        <Image
+                            src={projectCard}
                             alt="Project 1"
                             className="w-full h-48 object-cover"
                         />

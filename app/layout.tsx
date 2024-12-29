@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "To Do App",
-  description: "A next typescript web to-do app",
+  title: "Portfolio",
+  description: "Tushar Jain's Personal portfolio website",
 };
 
 export default function RootLayout({

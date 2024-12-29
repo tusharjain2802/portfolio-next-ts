@@ -9,11 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        crimson: "#DC143C",
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
+        'ubuntu': ['Ubuntu', 'sans-serif'],
       },
     },
   },

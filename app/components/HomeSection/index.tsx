@@ -27,9 +27,10 @@ export default function HomeSection() {
     }
   }, []);
   return (
-    <section id="home" className="text-white font-poppins" style={{
+    <section id="home" className="text-white font-ubuntu" style={{
       backgroundImage: `url(${bgImage.src})`, backgroundSize: 'cover',
       backgroundPosition: 'center',
+      backgroundAttachment:'fixed',
     }}>
       <div className="py-[187px] md:py-[230px] mx-[9%] font-bold">  
         <h1 className="text-[19px] font-[500] md:text-[28px]">Hello, my name is</h1>

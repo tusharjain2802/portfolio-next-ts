@@ -10,7 +10,7 @@ import ContactSection from '@/app/components/ContactSection';
 
 export default function Home() {
   return (
-    <div>
+    <div className='font-poppins'>
       <Header />
       <main>
         <HomeSection />

@@ -39,7 +39,7 @@ export default function Header() {
       >
         <Toolbar>
           <Typography className='text-[21px] md:text-[32px] font-[700]' variant="h6" sx={{ flexGrow: 1 }}>
-            Tushar's Portfolio
+            Tushar&apos;s Portfolio
           </Typography>
           {['Home', 'About', 'Experience', 'Skills', 'Projects', 'Contact'].map((item) => (
             <Button className='hidden lg:block' key={item} color="inherit" href={`#${item.toLowerCase()}`}>

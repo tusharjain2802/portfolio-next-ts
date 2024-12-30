@@ -30,7 +30,7 @@ export default function AboutSection() {
   }, []);
   return (
     <section id="about" className="font-ubuntu mx-[9%]" style={{ padding: '2rem', textAlign: 'center' }}>
-      <h2 className="font-ubuntu text-[42px] font-[600]">About Me</h2>
+      <h2 className="font-ubuntu text-[30px] md:text-[42px] font-[600]">About Me</h2>
       <TextDesign>who i am</TextDesign>
       <div className="grid grid-cols-1 md:grid-cols-2 mt-16 gap-4 items-center justify-between">
         <div>

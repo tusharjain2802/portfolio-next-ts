@@ -13,7 +13,7 @@ export default function Header() {
       } else {
         setScrolled(false);
       }
-      
+
       if (window.scrollY > 500) {
         setShowScrollBtn(true);
       } else {
@@ -31,9 +31,11 @@ export default function Header() {
   return (
     <>
       <AppBar
+        elevation={0}
         position="sticky"
-        className={`px-[9%]  font-ubuntu ${scrolled ? 'sticky bg-crimson' : 'absolute bg-transparent'}`}
+        className={`px-[9%]  font-ubuntu ${scrolled ? 'sticky' : 'absolute'}`}
         sx={{
+          backgroundColor: scrolled ? '#DC143C' : 'transparent',
           transition: 'background-color 1s ease',
         }}
       >
@@ -52,7 +54,7 @@ export default function Header() {
       {/* Scroll-Up Button (optional, if needed) */}
       {showScrollBtn && (
         <Box
-        className="bg-crimson rounded-xl text-center my-auto "
+          className="bg-crimson rounded-xl text-center my-auto "
           onClick={() => window.scrollTo(0, 0)}
           sx={{
             position: 'fixed',

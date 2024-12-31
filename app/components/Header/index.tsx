@@ -33,18 +33,18 @@ export default function Header() {
       <AppBar
         elevation={0}
         position="sticky"
-        className={`px-[9%]  font-ubuntu ${scrolled ? 'sticky' : 'absolute'}`}
+        className={`px-[9%] font-ubuntu ${scrolled ? 'sticky' : 'absolute pt-[26px]'}`}
         sx={{
           backgroundColor: scrolled ? '#DC143C' : 'transparent',
           transition: 'background-color 1s ease',
         }}
       >
         <Toolbar>
-          <Typography className='text-[21px] md:text-[32px] font-[700]' variant="h6" sx={{ flexGrow: 1 }}>
+          <Typography className='text-[24px] md:text-[38px] font-[700]' variant="h6" sx={{ flexGrow: 1 }}>
             Tushar&apos;s Portfolio
           </Typography>
           {['Home', 'About', 'Experience', 'Skills', 'Projects', 'Contact'].map((item) => (
-            <Button className='hidden lg:block' key={item} color="inherit" href={`#${item.toLowerCase()}`}>
+            <Button className='hidden font-bold lg:block' key={item} color="inherit" href={`#${item.toLowerCase()}`}>
               {item}
             </Button>
           ))}

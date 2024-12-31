@@ -4,7 +4,7 @@ export default function ExperienceSection() {
   const experiences = [
     {
       role: 'QuadB technologies',
-      date: 'SDE - Full Time | 27/01/2024 - 04/12/2024',
+      date: 'SDE - Full Time | 27/01/2024 - 04/01/2025',
       description: <ul style={{listStyle:"disc"}}>
         <li>Developed a web application to launch and participate in hackathons globally (blockseblock.com), catering to over 10,000 users worldwide.
           Implemented a dual-user system, configured for multiple organizers and customer profiles.</li>
@@ -15,7 +15,7 @@ export default function ExperienceSection() {
     },
     {
       role: 'Lumega Labs ',
-      date: 'SDE - Full Time | 01/12/2024 - Present',
+      date: 'SDE - Full Time | 01/01/2025 - Present',
       description:  <ul style={{listStyle:"disc"}}>
       <li>Developed a web application to launch and participate in hackathons globally (blockseblock.com), catering to over 10,000 users worldwide.
         Implemented a dual-user system, configured for multiple organizers and customer profiles.</li>

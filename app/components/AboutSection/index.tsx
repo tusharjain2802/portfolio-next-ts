@@ -40,7 +40,7 @@ export default function AboutSection() {
         <Typography className="!font-poppins !font-[600] !text-[16px] md:!text-[20px] lg:!text-[25px]" variant="h6">
         I&apos;m Tushar and I&apos;m <span className="!text-crimson" ref={typewriterRef}></span>
         </Typography>
-          <Typography className="!font-poppins !text-[13px] md:!text-[16px] lg:!text-[18px]" variant="h6">I&apos;m a Computer Science Engineering. I&apos;m a quick and passionate learner. I am always passionate about understanding the core concepts behind different popular Technological Fields. I think no matter how hard the past is, you can always begin again... and I believe every day is a chance to begin again. I love whatever I do...and also I do whatever I love...
+          <Typography className="!font-poppins !text-[13px] md:!text-[16px] lg:!text-[18px]" variant="h6">I&apos;m a Computer Science Engineering graduate (2024). I&apos;m a quick and passionate learner. I am always passionate about understanding the core concepts behind different popular Technological Fields. I think no matter how hard the past is, you can always begin again... and I believe every day is a chance to begin again. I love whatever I do...and also I do whatever I love...
           </Typography>
         </div>
       </div>

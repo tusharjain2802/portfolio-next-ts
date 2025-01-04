@@ -15,7 +15,7 @@ export default function ContactSection() {
                     <Typography className="!mt-6 !font-bold" variant="h6" > Address</Typography>
                     <Typography variant="body1" > Ludhiana, India</Typography>
                     <Typography className="!font-bold !mt-2" variant="h6" >Email</Typography>
-                    <Typography variant="body1" >tjain2_be20@thapar.edu</Typography>
+                    <Typography variant="body1" >tshr.jn02@gmail.com</Typography>
                 </div>
                 <div data-aos="fade-left">
                     <Typography className="!font-bold" variant="h6" > Connect with me on LinkedIn</Typography>

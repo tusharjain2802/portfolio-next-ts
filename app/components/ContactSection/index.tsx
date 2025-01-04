@@ -7,7 +7,7 @@ export default function ContactSection() {
             <h2 className="!font-ubuntu !text-center !text-[30px] md:!text-[42px] !pt-[2rem] !font-[600]">Contact Me</h2>
             <TextDesign>Get in touch</TextDesign>
             <div className="!grid !grid-cols-1 md:!grid-cols-2 !gap-6">
-                <div>
+                <div data-aos="fade-right">
                     <Typography className="!font-bold" variant="h6" >Get in Touch</Typography>
 
                     <Typography variant="h6" > I love to connecting with different people from around the world, feel free to reach out. 😊 💜</Typography>
@@ -17,7 +17,7 @@ export default function ContactSection() {
                     <Typography className="!font-bold !mt-2" variant="h6" >Email</Typography>
                     <Typography variant="body1" >tjain2_be20@thapar.edu</Typography>
                 </div>
-                <div>
+                <div data-aos="fade-left">
                     <Typography className="!font-bold" variant="h6" > Connect with me on LinkedIn</Typography>
                     <Button
                         sx={{

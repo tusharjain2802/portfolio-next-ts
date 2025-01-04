@@ -33,10 +33,10 @@ export default function AboutSection() {
       <h2 className="!font-ubuntu !text-[30px] md:!text-[42px] !font-[600]">About Me</h2>
       <TextDesign>who i am</TextDesign>
       <div className="!grid !grid-cols-1 md:!grid-cols-2 !mt-16 !gap-4 !items-center !justify-between">
-        <div>
+        <div data-aos="zoom-in-left">
           <Image className="!h-[190px] !w-[200px] md:!w-auto !mx-auto md:!h-[299px] lg:!h-[383px] " alt="programmer" src={programmer} />
         </div>
-        <div className="!text-left">
+        <div data-aos="zoom-in-left" className="!text-left">
         <Typography className="!font-poppins !font-[600] !text-[16px] md:!text-[20px] lg:!text-[25px]" variant="h6">
         I&apos;m Tushar and I&apos;m <span className="!text-crimson" ref={typewriterRef}></span>
         </Typography>

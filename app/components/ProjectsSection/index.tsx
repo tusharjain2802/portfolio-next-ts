@@ -58,7 +58,7 @@ export default function ProjectsSection() {
             <div className="!grid grid-cols-1 md:!grid-cols-2 lg:!grid-cols-3 mt-16 pb-20 gap-12">
                 {projects.map((project, idx) => (
                     <Link key={idx} target="_blank" href={project.link}>
-                        <div className="!bg-[#e7e7e7] rounded-xl hover:bg-crimson transition-colors duration-500 ease-in-out p-7 gap-6 text-center" style={{ marginBottom: '1rem' }}>
+                        <div data-aos="zoom-out" className="!bg-[#e7e7e7] rounded-xl hover:bg-crimson transition-colors duration-500 ease-in-out p-7 gap-6 text-center" style={{ marginBottom: '1rem' }}>
                             <h3 className="!font-bold! text-[21px] md:!text-[25px]">{project.role}</h3>
                             <p className="!text-[15px] md:text-[19px] !font-medium !mt-4">({project.technologies})</p>
                             <div className="!text-[11px] md:!text-[14px] !mt-6">{project.description}</div>
